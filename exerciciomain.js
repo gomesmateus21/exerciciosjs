@@ -48,6 +48,9 @@ function secAnt(num1){
 // Exercício de lógica de programação
 // Considerando que todos os meses tenham 30 dias, calcular o total de dias de n meses.
 
+function calDias(meses){
+    return meses * 30
+}
 
 
 trocaVar();
