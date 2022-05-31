@@ -13,14 +13,14 @@ function trocaVar(){
     console.log(a,b);
 }
 
-
 // 2
 // Exercício de lógica de programação
 // Faça uma função para calcular o dobro de um número qualquer.
 
-
-
-
+function dobro(num){
+    var n1 = num*2
+    return n1   
+}
 
 // 3
 // Exercício de lógica de programação
