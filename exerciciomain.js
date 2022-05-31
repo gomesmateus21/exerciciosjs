@@ -34,12 +34,15 @@ function calArea(num1, num2){
     return area
 }
 
-
 // 4
 // Exercício de lógica de programação
 // Escreva um algoritmo para mostrar o sucessor e o antecessor de um número qualquer.
 
-
+function secAnt(num1){
+    var antecessor = num1-1
+    var sucessor = num1+1
+    console.log(antecessor, sucessor);
+}
 
 // 5
 // Exercício de lógica de programação
