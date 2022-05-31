@@ -29,6 +29,11 @@ function dobro(num){
 // A área de 3x9 é igual a 27
 // 3 . 9 = 27
 
+function calArea(num1, num2){
+    var area = num1 * num2
+    return area
+}
+
 
 // 4
 // Exercício de lógica de programação
