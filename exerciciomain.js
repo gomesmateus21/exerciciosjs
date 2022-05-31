@@ -4,22 +4,21 @@
 // A seguir (utilizando apenas atribuições entre variáveis) troque os seus conteúdos fazendo com que o valor que está em a passe para b e vice-versa.
 
 function trocaVar(){
-    var a = 999
-    var b = 555
-    var c = a
-    console.log(a,b,c); 
-    a = b
-    b = c
-    console.log(a,b);
+    var valor1 = 999
+    var valor2 = 555
+    var valortemp = valor1
+
+    valor1 = valor2
+    valor2 = valortemp
+    return valor1, valor2;
 }
 
 // 2
 // Exercício de lógica de programação
 // Faça uma função para calcular o dobro de um número qualquer.
 
-function dobro(num){
-    var n1 = num*2
-    return n1   
+function calculaDobro(num){
+    return num * 2
 }
 
 // 3
@@ -30,8 +29,7 @@ function dobro(num){
 // 3 . 9 = 27
 
 function calArea(num1, num2){
-    var area = num1 * num2
-    return area
+    return num1 * num2
 }
 
 // 4
@@ -39,9 +37,7 @@ function calArea(num1, num2){
 // Escreva um algoritmo para mostrar o sucessor e o antecessor de um número qualquer.
 
 function secAnt(num1){
-    var antecessor = num1-1
-    var sucessor = num1+1
-    console.log(antecessor, sucessor);
+    return num1 - 1, num1 + 1
 }
 
 // 5
@@ -52,5 +48,3 @@ function calDias(meses){
     return meses * 30
 }
 
-
-trocaVar();
