@@ -23,11 +23,11 @@ function dividisao(n1,n2){
 // console.log(soma);
 
 // --->CHAMANDO PELA FUNÇÃO<---
-adição(2,4)
-subtracao(4,2);
-multiplicacao(2,4);
-dividisao(4,2);
-console.log(adicao(2,4),subtracao(4,2),multiplicacao(2,4),dividisao(4,2));
+// adição(2,4)
+// subtracao(4,2);
+// multiplicacao(2,4);
+// dividisao(4,2);
+// console.log(adicao(2,4),subtracao(4,2),multiplicacao(2,4),dividisao(4,2));
 
 
 // 2 
